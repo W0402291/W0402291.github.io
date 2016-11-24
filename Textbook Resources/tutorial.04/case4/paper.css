@@ -1,0 +1,181 @@
+/*
+   New Perspectives on HTML and CSS
+   Tutorial 4
+   Case Problem 4
+
+   Park City Gazette Style Sheet
+   Author: Archana chaudhari
+   Date:   11/7/2016
+
+   Filename:         paper.css
+   Supporting Files: 
+  
+*/
+@font-face {
+  font-family: 'NobileRegular';
+   src: url('nobile-webfont.eot');
+   src: local('☺'), 
+        url('nobile-webfont.woff') format('woff'), 
+        url('nobile-webfont.ttf') format('truetype'), 
+        url('nobile-webfont.svg#webfontsKo9tqe9') format('svg');
+}
+
+
+
+body{
+  background-image: url(parch.jpg);
+  background-repeat: repeat;
+  background-position: left top;  
+  width: 95%;
+  min-width: 1000px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+nav a{
+  text-decoration:none;
+ 
+}
+nav.horizontalNAV{
+	margin-left:20%;
+	width:35%;
+}
+
+nav.horizontalNAV li {
+  list-style-type:None;
+  font-family: 'NobileRegular', Geneva, sans-serif; 
+  font-size: 87.5%;
+  float: left;
+  width: 20%;
+  padding: 15px 0;
+  text-align: center;
+}
+
+nav.horizontalNAV li a {
+  color: rgb(148,0,211);
+}
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1
+  }
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+section#LocalWoman{
+  width: 40%;
+  margin-left:33%;
+  clear:left;
+  float:left;
+  background-color: none;
+  padding:5px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+}
+nav.verticalNAV{
+  float:left;
+  margin-left:3%;
+  width:23%;
+}
+nav.verticalNAV li {
+  list-style-type:None;
+  font-family: 'NobileRegular', Geneva, sans-serif;
+}
+nav.verticalNAV a{
+  color: rgb(148,0,211);
+  line-height: 2em;
+  border-bottom: 1px solid  rgb(148,0,211);
+}
+
+section#highway{
+	float: left;
+	clear: left;
+	margin-left:33%;
+	width:40%;
+}
+ section#img{
+  float:left;
+  clear:left;
+ }
+section#Cougar {
+	width:50%;
+	float:left;
+	border-right: 1px solid black;
+}
+ section#EncounteraCougar{
+  float:left;
+  clear: left;
+  width:49%;
+  margin-left: 33%;
+ }
+
+ 
+aside{
+	width: 300px;
+	height: 450px;
+	overflow: auto;
+	position:absolute;
+	top: 400px;
+	left: 10px;
+}
+footer nav.horizontalNAV{
+  float:left;
+  margin-left:1.5%;
+  width:90%;
+}
+footer nav.horizontalNAV li{
+  list-style-type:None;
+  font-family: 'NobileRegular', Geneva, sans-serif; 
+}
+footer nav.horizontalNAV a{
+  color: rgb(148,0,211);
+  line-height: 0em;
+}
+footer address{
+  background-color:none;
+  color: rgb(148,0,211);
+  clear: both;
+  font: normal small-caps 0.8em/4em'Times New Roman',Times,serif;
+  text-align:center;
+}
+ 
+
+
+
+
+
+
+
+

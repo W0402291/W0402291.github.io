@@ -1,0 +1,100 @@
+/*
+   New Perspectives on HTML and CSS
+   Tutorial 4
+   Tutorial Case
+
+   Cycle Pathology Style Sheet
+   Author: 
+   Date:   
+
+   Filename:         cp_styles.css
+   Supporting Files: atwood.png, bike_bg.png, rawlings.png
+
+*/
+body{
+  position: relative;
+  background-image: url(bike_bg.png);
+  background-repeat: no-repeat;
+  background-color: black;
+  background-position: left top;  
+  width: 95%;
+  min-width: 1000px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+nav a{
+  text-decoration:none;
+ 
+}
+nav.horizontalNAV{
+	margin-left:33%;
+	width:66%;
+}
+
+nav.horizontalNAV li {
+  font-size: 87.5%;
+  float: left;
+  width: 20%;
+  padding: 15px 0;
+  text-align: center;
+}
+
+nav.horizontalNAV li a {
+  color: rgb(255,255,99)
+}
+
+section#president {
+  width: 40%;
+  margin-left:33%;
+  clear:left;
+  float:left;
+  background-color: rgb(105,96,87);
+  padding:5px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+}
+nav.verticalNAV{
+  float:left;
+  margin-left:3%;
+  width:23%;
+}
+nav.verticalNAV li {
+  border-bottom: 1px solid rgb(182,182,92);
+}
+nav.verticalNAV a{
+  color: rgb(182,182,92);
+  line-height: 2em;
+}
+section#story{
+	float: left;
+	clear: left;
+	margin-left: 33%;
+	width:66%;
+	background-color:gray
+}
+section#story article {
+	width:50%;
+	float:left;
+	border-right: 1px solid black;
+}
+ section#story figure{
+  float:left;
+  width:49%;
+ }
+aside{
+	width: 30%;
+	height: 450px;
+	overflow: auto;
+	color: rgb(145,98,78);
+	position: absolute;
+	top: 400px;
+	left: 10px;
+}
+
+
+
+
+
+
+
